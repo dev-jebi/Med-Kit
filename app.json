@@ -20,14 +20,14 @@
       "package": "com.medkit.app"
     },
     "plugins": [
-  "expo-router",
-  [
-    "expo-notifications",
-    {
-      "icon": "./assets/icon.png",
-      "color": "#3b6ef5"
-    }
-  ]
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#3b6ef5"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
