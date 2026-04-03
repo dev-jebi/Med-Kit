@@ -17,8 +17,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.medkit.app",
-      "kotlinVersion": "2.0.0"
+      "package": "com.medkit.app"
     },
     "plugins": [
       "expo-router",
@@ -27,6 +26,17 @@
         {
           "icon": "./assets/icon.png",
           "color": "#3b6ef5"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.0.21",
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          }
         }
       ]
     ],
