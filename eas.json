@@ -13,7 +13,7 @@
         "buildType": "apk"
       },
       "env": {
-        "NODE_OPTIONS": "--legacy-peer-deps"
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
     },
     "production": {}
