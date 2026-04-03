@@ -3,20 +3,16 @@
     "version": ">= 16.0.0"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
       },
       "env": {
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
-    },
-    "production": {}
+    }
   },
   "submit": {
     "production": {}
