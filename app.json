@@ -21,33 +21,14 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#3b6ef5"
-        }
-      ],
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "kotlinVersion": "2.2.0"
-          }
-        }
-      ]
+      ["expo-notifications", { "icon": "./assets/icon.png", "color": "#3b6ef5" }],
+      ["expo-build-properties", { "android": { "kotlinVersion": "1.9.24" } }]
     ],
-    "experiments": {
-      "typedRoutes": true
-    },
+    "experiments": { "typedRoutes": true },
     "extra": {
       "router": {},
-      "eas": {
-        "projectId": "013a6aa7-e5f1-4125-86aa-6685f2356246"
-      }
+      "eas": { "projectId": "013a6aa7-e5f1-4125-86aa-6685f2356246" }
     },
-    "ios": {
-      "bundleIdentifier": "com.medkit.app"
-    }
+    "ios": { "bundleIdentifier": "com.medkit.app" }
   }
 }
