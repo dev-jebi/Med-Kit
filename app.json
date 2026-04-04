@@ -13,10 +13,6 @@
       "backgroundColor": "#ffffff"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
       "package": "com.medkit.app"
     },
     "plugins": [
@@ -32,22 +28,13 @@
         "expo-build-properties",
         {
           "android": {
-            "kotlinVersion": "1.9.0"
+            "kotlinVersion": "1.9.25"
           }
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "013a6aa7-e5f1-4125-86aa-6685f2356246"
-      }
-    },
-    "ios": {
-      "bundleIdentifier": "com.medkit.app"
     }
   }
 }
