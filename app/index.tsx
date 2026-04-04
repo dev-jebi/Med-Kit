@@ -1,9 +1,9 @@
-import { View, ActivityIndicator } from 'react-native';
+import { Text, View } from 'react-native';
 
-export default function Index() {
+export default function Home() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#ffffff' }}>
-      <ActivityIndicator size="large" color="#3b6ef5" />
+    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
+      <Text>MedKit Working ✅</Text>
     </View>
   );
 }
